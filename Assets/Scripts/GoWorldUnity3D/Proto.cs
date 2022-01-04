@@ -19,22 +19,20 @@ namespace GoWorldUnity3D
         internal const UInt16 MT_SET_GATE_ID = 2;
         internal const UInt16 MT_NOTIFY_CREATE_ENTITY = 3;
         internal const UInt16 MT_NOTIFY_DESTROY_ENTITY = 4;
-        internal const UInt16 MT_DECLARE_SERVICE = 5;
-        internal const UInt16 MT_UNDECLARE_SERVICE = 6;
-        internal const UInt16 MT_CALL_ENTITY_METHOD = 7;
-        internal const UInt16 MT_CREATE_ENTITY_ANYWHERE = 8;
-        internal const UInt16 MT_LOAD_ENTITY_ANYWHERE = 9;
-        internal const UInt16 MT_NOTIFY_CLIENT_CONNECTED = 10;
-        internal const UInt16 MT_NOTIFY_CLIENT_DISCONNECTED = 11;
-        internal const UInt16 MT_CALL_ENTITY_METHOD_FROM_CLIENT = 12;
-        internal const UInt16 MT_SYNC_POSITION_YAW_FROM_CLIENT = 13;
-        internal const UInt16 MT_NOTIFY_ALL_GAMES_CONNECTED = 14;
-        internal const UInt16 MT_NOTIFY_GATE_DISCONNECTED = 15;
-        internal const UInt16 MT_START_FREEZE_GAME = 16;
-        internal const UInt16 MT_START_FREEZE_GAME_ACK = 17;
+        internal const UInt16 MT_KVREG_REGISTER = 5;
+        internal const UInt16 MT_CALL_ENTITY_METHOD = 6;
+        internal const UInt16 MT_CREATE_ENTITY_ANYWHERE = 7;
+        internal const UInt16 MT_LOAD_ENTITY_ANYWHERE = 8;
+        internal const UInt16 MT_NOTIFY_CLIENT_CONNECTED = 9;
+        internal const UInt16 MT_NOTIFY_CLIENT_DISCONNECTED = 10;
+        internal const UInt16 MT_CALL_ENTITY_METHOD_FROM_CLIENT = 11;
+        internal const UInt16 MT_SYNC_POSITION_YAW_FROM_CLIENT = 12;
+        internal const UInt16 MT_NOTIFY_GATE_DISCONNECTED = 13;
+        internal const UInt16 MT_START_FREEZE_GAME = 14;
+        internal const UInt16 MT_START_FREEZE_GAME_ACK = 15;
         // Message types for migrating
-        internal const UInt16 MT_MIGRATE_REQUEST = 18;
-        internal const UInt16 MT_REAL_MIGRATE = 19;
+        internal const UInt16 MT_MIGRATE_REQUEST = 16;
+        internal const UInt16 MT_REAL_MIGRATE = 17;
 
         internal const UInt16 MT_GATE_SERVICE_MSG_TYPE_START = 1000;
         internal const UInt16 MT_REDIRECT_TO_GATEPROXY_MSG_TYPE_START = 1001; // messages that should be redirected to client proxy
